@@ -2,7 +2,9 @@ This function receives as input a string compromising of the characters ( ) { } 
 
 Ex:
 Input: (s)d           Output: legal   
+
 Input: a(a{b}s)d      Output: legal
 
 Input: {a[b]c         Output: illegal
+
 Input: ([a)d]         Output: illegal
